@@ -1,5 +1,6 @@
 # CoffeeCart
 A small Cypress project using JavaScript.
+
 **Used Technologies**
   Java version: openjdk version "17.0.6"
   Selenium version: '4.24.0'
