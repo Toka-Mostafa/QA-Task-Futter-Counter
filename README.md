@@ -25,14 +25,14 @@ To run tests headlessly:
 npx cypress run
 
 
-✅ Test Scenarios
+## ✅ Test Scenarios
 ✅ Add multiple coffee items to the cart
 ✅ Automatically accept promo offer for an extra cup
 ✅ Calculate and assert total price including promo
 ✅ Navigate to cart and verify checkout total
 ✅ Fill out and submit payment form with name and email
 
-⚙️ Configuration
+## ⚙️ Configuration
 Base URL: https://coffee-cart.app
 
 Cypress version: (update based on your package.json)
