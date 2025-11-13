@@ -1,14 +1,18 @@
 const { defineConfig } = require('cypress');
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 
 module.exports = defineConfig({
-  viewportHeight: 1080,
-  viewportWidth: 1920,
-  video: false,
   e2e: {
-    baseUrl: 'https://coffee-cart.app/',
-    specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}',
+    baseUrl: 'https://flutter-angular.web.app/',
+    specPattern: 'cypress/e2e/**/*.cy.js',
+    screenshotOnRunFailure: true,
+    video: false,
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      allureWriter(on, config);
+      return config;
+    },
+    env: {
+      allure: true,
     },
   },
 });
