@@ -1,6 +1,11 @@
 # Flutter Counter — Cypress E2E Tests
 
-This project contains end-to-end tests for the Flutter Counter (CanvasKit) Demo embedded inside an Angular application: https://flutter-angular.web.app/
+This project contains end-to-end tests for the Flutter Counter.
+
+
+
+
+
 
 Because the Flutter UI is rendered inside a CanvasKit WebGL canvas, normal DOM assertions and clicks do not work.
 These tests demonstrate how to:
