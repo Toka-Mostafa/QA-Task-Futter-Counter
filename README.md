@@ -15,7 +15,6 @@ These tests demonstrate how to:
 
 cypress/
 ├── e2e/
-
 │   └── counterTest.cy.js      
 
 │
