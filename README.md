@@ -14,21 +14,13 @@ These tests demonstrate how to:
 ## 📁 Project Structure
 
 cypress/
-├── e2e/
-
-│   └── counterTest.cy.js      
-
+├── e2e/ ── counterTest.cy.js      
 │
-
-├── pageObjects/
-│   └── CounterPage.js        
-
+├── pageObjects/── CounterPage.js        
 │
 ├── support/
-│   ├── commands.js
-
-│   └── helpers.js
-│
+│     ├── commands.js
+│     └── helpers.js
 │   └── e2e.js
 
 ---
