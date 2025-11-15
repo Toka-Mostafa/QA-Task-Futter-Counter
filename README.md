@@ -2,17 +2,13 @@
 
 This project contains end-to-end tests for the Flutter Counter.
 
-
-
-
-
-
-Because the Flutter UI is rendered inside a CanvasKit WebGL canvas, normal DOM assertions and clicks do not work.
+Because the Flutter UI is drawn inside a canvas, normal DOM-based clicks and assertions do not work.
 These tests demonstrate how to:
-Enable Flutter semantics mode for automation
-Interact with canvas-rendered elements
-Assert counter values using accessibility nodes
-Perform multiple increments reliably
+  Enable Flutter accessibility semantics mode for automation
+  Interact with canvas-rendered UI elements
+  Assert counter values via accessibility nodes
+  Perform multiple increments reliably
+  
 ---
 
 ## 📁 Project Structure
