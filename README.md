@@ -16,14 +16,20 @@ These tests demonstrate how to:
 cypress/
 ├── e2e/
 │   └── counterTest.cy.js      
+
 │
+
 ├── pageObjects/
 │   └── CounterPage.js        
+
 │
 ├── support/
 │   ├── commands.js
-│   └── helpers.js│   
+
+│   └── helpers.js
+│
 │   └── e2e.js
+
 ---
 
 ## 🚀 Getting Started
